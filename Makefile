@@ -13,6 +13,7 @@ export-all:
 		--assets-dir ./dist/assets \
 		--assets-prefix / \
 		--dist-dir ./dist \
+		--i18n-dir ./src/_layout/i18n \
 		--templates-dir ./src \
 		--excludes /site/docs/ \
 		--export

@@ -5,9 +5,11 @@
 
 {% block body %}
 <div class="block-container space-y-6">
-    <h1 class="text-4xl font-extrabold mt-6 ">
-        <a href="/" class="text-green-600">{{site.base.name}}</a>
-    </h1>
-    <p class="text-[95%] text-black/70">{{t("简介")}}</p>
+    <a href="/">
+        <img class="mt-6" src="@/assets/img/kanzy-logo-text.svg" alt="{{site.base.name}}">
+    </a>
+    <div class="text-lg text-black/90 content-box">
+        {{t("简介")}}
+    </div>
 </div>
 {% endblock body %}

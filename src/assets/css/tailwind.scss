@@ -79,3 +79,10 @@ body {
     margin-bottom: 2rem;
   }
 }
+
+
+.content-box{
+  p {
+    @apply my-6 indent-10;
+  }
+}
